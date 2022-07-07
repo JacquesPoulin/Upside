@@ -12,7 +12,6 @@ const Home = () => {
   // je crée une fonction pour Handle
   const handleContainsWord = (e) => {
     setcontainsWord(e.target.value);
-    console.log(containsWord);
   };
 
   const handleSetCompany = (e) => {
